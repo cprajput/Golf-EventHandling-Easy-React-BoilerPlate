@@ -41,6 +41,8 @@ class App extends Component {
           left: +this.state.ballPosition.left.split("px")[0] + 5 + "px"
         }
       });
+    } else {
+      return;
     }
   }
   componentDidMount() {
